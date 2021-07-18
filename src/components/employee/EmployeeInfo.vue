@@ -124,7 +124,6 @@ export default class EmployeeInfo extends Vue {
   }
 
   onSubmit ():void {
-    console.log("Hola OnSubmit")
 
     this.saveEmployeeAction(this.employeeInfo)
       .then(() => {
